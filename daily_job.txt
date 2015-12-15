@@ -1,0 +1,10 @@
+name=test_normal
+cmd_line=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_0.pl
+status=0
+
+name=test_error
+cmd_line=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_1.pl
+status=3
+
+__END__
+

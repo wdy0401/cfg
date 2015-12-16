@@ -1,10 +1,13 @@
+__BEGIN__
 name=test_normal
-cmd_line=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_0.pl
+cmdline=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_0.pl
 status=0
+time=23:58:00
+__END__
 
+__BEGIN__
 name=test_error
-cmd_line=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_1.pl
+cmdline=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_1.pl
 status=3
-
 __END__
 

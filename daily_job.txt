@@ -1,13 +1,14 @@
 __BEGIN__
-name=test_normal
-cmdline=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_0.pl
+name=日盘数据
+cmdline=perl.exe c:/code/receive_tick_daily_job.pl
 status=0
-time=23:58:00
+time=08:55:00
 __END__
 
 __BEGIN__
-name=test_error
-cmdline=perl C:\Users\NUC\Documents\GitHub\job_trigger\return_1.pl
-status=3
+name=夜盘数据
+cmdline=perl c:/code/receive_tick_daily_job.pl -night 1
+status=0
+time=20:00:00
 __END__
 

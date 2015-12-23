@@ -12,3 +12,15 @@ status=0
 time=20:00:00
 __END__
 
+__BEGIN__
+name=kill 数据接收
+cmdline=perl c:/code/task_kill.pl ctp_record.exe
+status=0
+__END__
+
+__BEGIN__
+name=kill 数据转发
+cmdline=perl c:/code/task_kill.pl test_receiver.exe
+status=0
+__END__
+

@@ -26,3 +26,11 @@ status=0
 time=15:55:00
 __END__
 
+__BEGIN__
+name=5µãÖØÆôµçÄÔ
+cmdline=shutdown /f /r /t 600
+status=0
+time=5:00:00
+nextday=1
+__END__
+

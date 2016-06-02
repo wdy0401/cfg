@@ -1,15 +1,22 @@
 __BEGIN__
-name=日盘数据
+name=日盘期货数据
 cmdline=perl.exe c:/code/receive_tick_daily_job.pl
 status=0
 time=08:55:00
 __END__
 
 __BEGIN__
-name=夜盘数据
+name=夜盘期货数据
 cmdline=perl c:/code/receive_tick_daily_job.pl -night 1
 status=0
 time=20:00:00
+__END__
+
+__BEGIN__
+name=期权数据
+cmdline=perl c:/code/option_contract.pl
+status=0
+time=09:00:00
 __END__
 
 __BEGIN__

@@ -1,40 +1,40 @@
 __BEGIN__
-name=ÈÕÅÌÆÚ»õÊı¾İ
+name=æ—¥ç›˜æœŸè´§æ•°æ®
 cmdline=perl.exe c:/code/receive_tick_daily_job.pl
 status=0
 time=08:55:00
 __END__
 
 __BEGIN__
-name=Ò¹ÅÌÆÚ»õÊı¾İ
+name=å¤œç›˜æœŸè´§æ•°æ®
 cmdline=perl c:/code/receive_tick_daily_job.pl -night 1
 status=0
 time=20:00:00
 __END__
 
 __BEGIN__
-name=ÆÚÈ¨Êı¾İ
+name=æœŸæƒæ•°æ®
 cmdline=perl c:/code/option_contract.pl
 status=0
 time=09:00:00
 __END__
 
 __BEGIN__
-name=kill Êı¾İ½ÓÊÕ
+name=kill æ•°æ®æ¥æ”¶
 cmdline=perl c:/code/task_kill.pl ctp_record.exe
 status=0
 time=15:55:00
 __END__
 
 __BEGIN__
-name=kill Êı¾İ×ª·¢
+name=kill æ•°æ®è½¬å‘
 cmdline=perl c:/code/task_kill.pl test_receiver.exe
 status=0
 time=15:55:00
 __END__
 
 __BEGIN__
-name=5µãÖØÆôµçÄÔ
+name=5ç‚¹é‡å¯ç”µè„‘
 cmdline=shutdown /f /r /t 600
 status=0
 time=5:00:00

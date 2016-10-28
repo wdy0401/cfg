@@ -12,14 +12,6 @@ status=0
 time=20:00:00
 __END__
 
-
-__BEGIN__
-name=期权数据
-cmdline=perl c:/code/option_contract.pl
-status=0
-time=09:00:00
-__END__
-
 __BEGIN__
 name=终止数据接受
 cmdline=perl c:/code/task_kill.pl ctp_record.exe,test_receiver.exe
@@ -34,4 +26,5 @@ status=0
 time=5:00:00
 nextday=1
 __END__
+
 

@@ -1,4 +1,11 @@
 __BEGIN__
+name=CTA报告
+cmdline=perl c:/code/project/dubi/daily_run.pl
+status=0
+time=17:30:00
+__END__
+
+__BEGIN__
 name=日盘期货数据
 cmdline=perl.exe c:/code/receive_tick_daily_job_2016.pl
 status=0

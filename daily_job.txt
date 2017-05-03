@@ -7,7 +7,7 @@ __END__
 
 __BEGIN__
 name=日盘期货数据
-cmdline=perl.exe c:/code/receive_tick_daily_job_2016.pl
+cmdline=perl c:/code/receive_tick_daily_job_2016.pl
 status=0
 time=08:55:00
 __END__
